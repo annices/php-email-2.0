@@ -10,7 +10,7 @@ MIT: [http://rem.mit-license.org](http://rem.mit-license.org/), see [LICENSE](LI
 
 ---
 
-# 3 System requirements
+# System requirements
 This script can be run on servers that support PHP.
 
 ---
@@ -48,5 +48,5 @@ $timezone = 'Europe/Stockholm'; // Change to your time zone (https://secure.php.
 
 ---
 
-# 9 Contact details
+# Contact details
 For general feedback related to this script, such as any discovered bugs etc., you can contact me via the following email address: [info@annice.se](mailto:info@annice.se)
