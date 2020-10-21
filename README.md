@@ -1,5 +1,5 @@
 # General information
-The script ”Email 2.0" is created in Sublime by Annice Strömberg ([Annice.se](https://annice.se)), 2019. The script can be used to send emails via a web form. Furthermore, it is built in HTML5, CSS3, and PHP.
+The script ”Email 2.0" was created in Sublime by Annice Strömberg ([Annice.se](https://annice.se)), 2019. The script can be used to send emails via a web form. Furthermore, it is built in HTML5, CSS3, and PHP.
 
 ---
 
