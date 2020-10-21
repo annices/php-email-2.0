@@ -1,0 +1,94 @@
+/* 
+    Created: 2019
+    Author: Annice Strömberg
+*/
+
+    /* General page properties: */
+    body {
+      font : 14px 'Verdana', Helvetica, Sans-serif;
+      width: 50%;
+      padding-top : 20px;
+      padding-bottom : 30px;
+      margin: auto;
+    }
+
+    /* Properties for paragraph tag: */
+    p {
+      margin-bottom : 20px;
+    }
+
+    .successmsg {
+      font-weight: bold;
+      color: green;
+    }
+    .errormsg {
+      font-weight: bold;
+      color: red;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text], input[type=password], input[type=email], select, textarea {
+      font : 14px 'Verdana', Helvetica, Sans-serif;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+
+    input[type=submit] {
+      background-color: #1b6f90;
+      color: white;
+      padding: 12px 30px;
+      margin-left: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+
+    #container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Apply responsive layout - break columns when the screen is less than 800 px wide. */
+    @media screen and (max-width: 800px) {
+      body {
+        width: 90%;
+      }
+
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
